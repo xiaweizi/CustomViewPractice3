@@ -34,7 +34,7 @@ public class Practice12MeasureTextView extends View {
         paint2.setTextSize(120);
         paint2.setColor(Color.parseColor("#E91E63"));
         measureText1 = paint1.measureText(text1);
-        measureText2 =paint2.measureText(text2);
+        measureText2 =paint2.measureText(text2 + text1);
     }
 
     @Override
